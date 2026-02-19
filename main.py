@@ -72,7 +72,7 @@ def apply_vehicle(
 
     # 4️⃣ Create application with snapshot fields and file URL
     new_app = models.Application(
-        customer_name="Pixel Values",
+        customer_name="Example Technology",
         customer_id=customer_id,
         vehicle_id=vehicle.id,
         car=vehicle.car,
